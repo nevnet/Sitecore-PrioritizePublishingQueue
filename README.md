@@ -1,5 +1,5 @@
 # Prioritize Sitecore Publishing Queue
-This SQL script will move longer-running Sitecore Publishing Service jobs to the back of the queue to allow important content authors jobs to execute first.
+This PowerShell+SQL script will move longer-running Sitecore Publishing Service jobs to the back of the queue to allow important content authors jobs to execute first.
 
 The script should be set up to execute at a regular interval. This can be done using a Runbook with Azure Automation or as a regular SQL agent job.
 
